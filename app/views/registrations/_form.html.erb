@@ -1,0 +1,12 @@
+<%= form_for @registration_form, url: registrations_path, method: :post do |f| %>
+
+<%= f.label "名前" %>
+
+<%= f.text_field :name %>
+
+
+
+<%= f.submit %>
+
+
+<% end %>
